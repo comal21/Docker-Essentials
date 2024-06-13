@@ -2,6 +2,7 @@ Docker Essentials - 1 Day
 
 
 Lab 1: Creating an EC2 Instance in AWS and Installing Docker
+
 name: dockerhost
 instance type: t2.micro
 ubuntu 22.04
@@ -12,27 +13,42 @@ Allow port  :80,443,22,8080-8085
 Task 1: Installing Docker on Ubuntu 22.04 operating system 
 
 switching to super user and setting up a host name
+```
 sudo hostnamectl set-hostname docker
+```
+```
 sudo su
-
+```
 updating the packages
+```
 apt update -y
+```
 
 Installing the packages
+```
 apt install curl -y
-
+```
 connecting to url
+```
 curl -SSL https://get.docker.com/ | sh
-
+```
 checking the status of the docker
-service docker status
+```
+systemctl status docker
+```
 
 getting to user mode
+```
 usermod -aG docker ubuntu
+```
 
 checking the version of the docker	
+```
 docker --version
-
+```
+```
+docker version
+```
 ------------END OF LAB1--------------
 
 Lab 2: Basic Docker Commands
