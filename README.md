@@ -1,4 +1,3 @@
-# Docker-Essentials
 Docker Essentials - 1 Day
 
 
@@ -632,3 +631,20 @@ Now use your image which is pushed to your Docker Hub to create a new container 
 
 
 Open the browser and access your WordPress website using Public_IP:8080
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
