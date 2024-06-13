@@ -2,6 +2,12 @@ Docker Essentials - 1 Day
 
 
 Lab 1: Creating an EC2 Instance in AWS and Installing Docker
+name: dockerhost
+instance type: t2.micro
+ubuntu 22.04
+Create a key pair
+Allow port  :80,443,22,8080-8085
+10 GB storage 
 
 Task 1: Installing Docker on Ubuntu 22.04 operating system 
 
